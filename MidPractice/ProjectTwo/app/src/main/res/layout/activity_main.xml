@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:andorid="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/Editnum1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="숫자1"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"/>
+
+    <EditText
+        android:id="@+id/Editnum2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="숫자2"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"/>
+
+    <Button
+        android:id="@+id/Btnplus"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/black"
+        android:text="더하기"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/Btnminus"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/black"
+        android:text="빼기"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/Btnmul"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/black"
+        android:text="곱하기"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/Btndiv"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/black"
+        android:text="나누기"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/Btnrem"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/black"
+        android:text="나머지"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/Textresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_margin="10dp"
+        android:text="계산 결과: "
+        android:textColor="@color/black" />
+
+
+
+</LinearLayout>

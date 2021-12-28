@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/zi"
+        android:title="확대">
+    </item>
+
+    <item
+        android:id="@+id/zo"
+        android:title="축소">
+    </item>
+
+    <item
+        android:id="@+id/ro"
+        android:title="회전">
+    </item>
+
+    <item
+        android:id="@+id/br"
+        android:title="밝게">
+    </item>
+
+    <item
+        android:id="@+id/da"
+        android:title="어둡게">
+    </item>
+
+    <item
+        android:id="@+id/gr"
+        android:title="그레이영상">
+    </item>
+
+</menu>
